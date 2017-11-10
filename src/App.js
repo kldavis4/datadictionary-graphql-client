@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import KualiDaysLogo from './KualiDaysLogo'
+import Modules from './ModulesContainer'
 
 class App extends Component {
   render () {
@@ -10,9 +11,7 @@ class App extends Component {
           <KualiDaysLogo updateFrequency={100} />
           <h1 className='App-title'>Data Dictionary Client</h1>
         </header>
-        <p className='App-intro'>
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Modules />
       </div>
     )
   }
