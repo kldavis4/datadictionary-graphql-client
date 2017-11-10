@@ -1,0 +1,24 @@
+{
+  "name": "datadictionary-graphql-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "graphql-request": "^1.4.0",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-scripts": "1.0.17"
+  },
+  "proxy": {
+    "/api": {
+      "target": "https://monsters-stg.kuali.co/cor/datadictionary",
+      "secure": true,
+      "changeOrigin": true
+    }
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
