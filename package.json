@@ -10,7 +10,7 @@
   },
   "proxy": {
     "/api": {
-      "target": "https://monsters-stg.kuali.co/cor/datadictionary",
+      "target": "https://monsters-tst.kuali.co/cor/datadictionary",
       "secure": true,
       "changeOrigin": true
     }
