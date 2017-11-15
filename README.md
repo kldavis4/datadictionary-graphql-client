@@ -45,18 +45,15 @@ query {
 }
 ```
 
-### Get entity by id with module and children
+### Get entity by name with module and children
 ```
 query {
-  entity(id: 74) {
+  getEntity(props: {name: "Tax Region"}) {
     id
-    name
     module {
-      id
       name
     }
     children {
-      id
       name
       _type
     }
