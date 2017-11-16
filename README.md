@@ -1,5 +1,7 @@
 # Data Dictionary Graphql Client
 
+React Patterns: http://lucasmreis.github.io/blog/simple-react-patterns/
+
 Demo application
 
 ## Graphql Sample Interface
